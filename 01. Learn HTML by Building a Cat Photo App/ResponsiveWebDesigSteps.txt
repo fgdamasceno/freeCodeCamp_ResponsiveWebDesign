@@ -1,0 +1,88 @@
+freeCodeCamp.org
+Responsive Web Design - Learn HTML by Building a Cat Photo App
+
+DAY 01 - 16/07/2024
+Aula 1 - Headers - <h1></h1>
+Aula 2 - Headers - <h1></h1> to <h6></h6>
+Aula 3 - Paragraph - <p></p>
+Aula 4 - Commentary - <!-- -->
+Aula 5 - Main content area - <main></main>
+Aula 6 - Nesting and indentation
+Step 7 - Images - <img> (void elemento = no closing tag)
+Step 8 - Images - <img src=""> (attributes)
+Step 9 - Images - <img src="" alt=""> (attributes)
+Step 10 - Anchoring - <a href=""></a>
+Step 11 - Anchoring - <a href=""></a>
+Step 12 - Anchoring - <a href=""></a>
+Step 13 - Deleting Step 10
+Step 14 - Anchoring - <a href="" target="_blank"></a>
+Step 15 - Anchoring - anchoring the image
+Step 15 - Sectioning - <section></section>
+Step 16 - Sectioning - <section></section>
+Step 17 - Sectioning - <section></section>
+Step 18 - Header - <h2></h2>
+Step 19 - Header - <h3></h3>
+Step 20 - Unordered List - <ul></ul>
+Step 21 - List items - <li></li> (nested withing <ul></ul> or <ol></ol> tags)
+Step 22 - Images - <img src="" alt="">
+Step 23 - Figure - <figure></figure> (allow to associate an image with a caption)
+Step 24 - Figcaption - <figcaption></figcaption>
+Step 25 - Emphasis - <em></em>
+Step 26 - Header - <h3></h3>
+Step 27 - Ordered List - <ol></ol>
+Step 28 - Figure - <figure></figure>
+Step 29 - Images - <img src="" alt="">
+Step 30 - Images - <img src="" alt="">
+Step 31 - Figcaption - <figcaption></figcaption>
+Step 32 - Strong importance - <strong></strong>
+
+DAY 02 - 18/07/2024
+Step 33 - Sectioning - <section></section>
+Step 34 - Header - <h2></h2>
+Step 35 - Form - <form></form>
+Step 36 - Form - <form action="Where the form data should be sent"></form>
+Step 37 - Input - <input> (allows you several ways to collect data from a web form)
+Step 38 - Input - <input type="text"> (type text input)
+Step 39 - Input - <input type="text" name="name"> (name attribute)
+Step 40 - Input - <input type="" name="" placeholder="">
+Step 41 - Input - <input type="" name="" placeholder="" required>
+Step 42 - Button - <button></button>
+Step 43 - Button - <button type="submit"></button>
+Step 44 - Radio button - <input type="radio">
+Step 45 - Label - <label></label>
+Step 46 - Id - <tag id=""></tag>
+Step 47 - Radio button - <input type="radio">
+Step 48 - Radio button - <input type="" id="" name="same-name">
+Step 49 - Radio button - <input type="" id="" name="same-name" value="one-for-each">
+Step 50 - Fieldset - <fieldset></fieldset> (related inputs and labels together in a form)
+Step 51 - Legend - <legend></legend> (caption for the contentes in fieldsets)
+Step 52 - Fieldset - <fieldset></fieldset> (related inputs and labels together in a form)
+Step 53 - Legend - <legend></legend> (caption for the contentes in fieldsets)
+Step 54 - Checkbox - <input type="checkbox">
+Step 55 - Checkbox - <input type="checkbox" id="loving">
+Step 56 - Label - <label></label> (association with the element text)
+Step 57 - Checkbox - <input type="checkbox" id="loving" name="">
+Step 58 - Checkbox - <input type="checkbox" id="loving">
+Step 59 - Label - <label></label> (association with the element text)
+Step 60 - Input - name="";
+
+DAY 03 - 19/07/2024
+Step 61 - Radio/Checkbox checked attribute - <input type="radio" checked>
+Step 62 - Footer - <footer></footer> (define a footer for a document or section)
+Step 63 - Footer - <footer></footer> nesting a paragraph in the footer section
+Step 64 - Footer - <footer></footer> adding a link <a href="URL"></a>
+Step 65 - Head - <head></head> (The head element content)
+Step 66 - Head - <head></head> (The <title></title> element)
+Step 67 - HTML - <html></html> (The root element of na HTML page) lang attribute
+Step 68 - <!DOCTYPE html> - Tells the browser that the document is na HTML5 document
+Step 69 - Meta - <meta> (Set browser behavior)
+
+END
+
+
+
+
+
+
+
+
