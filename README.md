@@ -1,4 +1,4 @@
-# freeCodeCamp.org Projects
+# freeCodeCamp.org - Responsive Web Design Projects
 
 Learn HTML by Building a Cat Photo App  ✅  
 Learn Basic CSS by Building a Cafe Menu    
