@@ -2,12 +2,12 @@
 ## Learn HTML by Building a Cat Photo App
 
 _DAY 01 - 16/07/2024_   
-Aula 1 - Headers        
-Aula 2 - Headers        
-Aula 3 - Paragraph      
-Aula 4 - Commentary     
-Aula 5 - Main content area      
-Aula 6 - Nesting and indentation        
+Step 1 - Headers        
+Step 2 - Headers        
+Step 3 - Paragraph      
+Step 4 - Commentary     
+Step 5 - Main content area      
+Step 6 - Nesting and indentation        
 Step 7 - Images     
 Step 8 - Images     
 Step 9 - Images     
