@@ -1,7 +1,7 @@
 # freeCodeCamp.org - Responsive Web Design Projects
 
-Learn HTML by Building a Cat Photo App  ✅  
-Learn Basic CSS by Building a Cafe Menu    
+Learn HTML by Building a Cat Photo App ✅  
+Learn Basic CSS by Building a Cafe Menu ✅    
 Learn CSS Colors by Building a Set of Colored Markers   
 Learn HTML Forms by Building a Registration Form        
 Certification Project - Survey Form     
