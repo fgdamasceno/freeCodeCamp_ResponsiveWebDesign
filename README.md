@@ -15,7 +15,7 @@
 10. Tribute Page (Certification Project) ✅
 ---
 
-11. Learn More About CSS Pseudo Selectors by Building a Balance Sheet
+11. Learn More About CSS Pseudo Selectors by Building a Balance Sheet ✅
 12. Learn Intermediate CSS by Building a Cat Painting
 13. Learn Responsive Web Design by Building a Piano
 14. Certification Project - Technical Documentation Page
