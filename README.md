@@ -23,7 +23,7 @@
 
 15. Learn CSS Variables by Building a City Skyline ✅
 16. Learn CSS Grid by Building a Magazine ✅
-17. Product Landing Page (Certification Project) 
+17. Product Landing Page (Certification Project) ✅
 ---
 
 18. Learn CSS Animation by Building a Ferris Wheel

@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- MAKE A DARKTHRONE MARKET PLACE -->
+    <header id="header">
+      <!-- logo -->
+      <!-- <img class="header-background-img" id="header-img" src="images/forest-fog.jpg" alt="the logo of the Darkthrone band"> -->
+      <img
+        id="header-img"
+        class="header-logo"
+        src="images/dt-logo-t.png"
+        alt=""
+      />
+      <nav id="nav-bar">
+        <!-- will take to the corresponding section within the page -->
+        <a class="nav-link" href="#biography">biography</a>
+        <a class="nav-link" href="#discography">discography</a>
+        <a class="nav-link" href="#members">members</a>
+        <a class="nav-link" href="#videos">videos</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="subscribe">
+        <div class="subscribe-title">
+          <h1 class="title">Darkthrone</h1>
+          <p class="subtitle">True Norwegian Black Metal</p>
+        </div>
+
+        <form
+          class="subscribe-form"
+          id="form"
+          action="https://www.freecodecamp.com/email-submit"
+        >
+          <label for="email"
+            >Subscribe to receive Darkthrone's news and promos</label
+          >
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="Enter your email address"
+            required
+          />
+          <input id="submit" type="submit" value="Subscribe" />
+        </form>
+      </section>
+
+      <section id="biography" class="biography">
+        <!-- some headers and some ps -->
+        <!-- display as grid with 3 columns with the picture in the center -->
+        <h3>Biography</h3>
+        <article>
+          <div class="bio-text-top">
+            <p>
+              Darkthrone is a norwegian metal band from Kolbotn, formed in 1986
+              initially as a Death Metal project called &quot;Black Death&quot;.
+            </p>
+            <p>
+              In 1991 Darkthrone embraced the Black Metal style influenced by
+              Bathory and Celtic Frost and became one of the leading bands in
+              the Norwegian Black Metal scene.
+            </p>
+          </div>
+          <div class="bio-img">
+            <figure>
+              <img
+                class="band-members"
+                src="images/darkthrone-band-members.jpg"
+                alt="Darkthrone members "
+              />
+              <figcaption class="band-names">
+                Fenriz and Nocturno Culto
+              </figcaption>
+            </figure>
+          </div>
+          <div class="bio-text-bottom">
+            <p>
+              Darkthrone has been a duo of Fenriz and Nocturno Culto since
+              guitarist Zephyrous left the band in 1993. They have sought to
+              remain outside the music mainstream.
+            </p>
+            <p>
+              From 2006, their music strayed from the traditional Black Metal
+              style and incorporated more elements of traditional Heavy Metal,
+              Punk, and Speed Metal, while more recent albums have also included
+              Doom Metal.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section id="discography" class="discography">
+        <h3>Discography</h3>
+        <!-- some albums can be bought from peaceville bandcamp -->
+        <!-- hundreds of img tags for the album covers + p's for album name and release year -->
+        <!-- display as flex -->
+        <h4>Demo Tapes</h4>
+        <div class="releases-containers">
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/1/3/6/1/13614.jpg?3240"
+              alt="Darkthrone - Land Of Frost demo tape cover from 1988"
+            />
+            <figcaption>1988 - Land of Frost</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/2/0/5/3/20530.jpg?1605"
+              alt="Darkthrone - A New Dimension demo tape cover from 1988"
+            />
+            <figcaption>1988 - A New Dimension</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/2/0/5/3/20531.jpg?0103"
+              alt="Darkthrone - Thulcandra demo tape cover from 1989"
+            />
+            <figcaption>1989 - Thulcandra</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/1/3/6/1/13616.jpg?0650"
+              alt="Darkthrone - Cromlech demo tape cover from 1989"
+            />
+            <figcaption>1989 - Cromlech</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+        </div>
+
+        <h4>Full-Length</h4>
+        <div class="releases-containers">
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/4/4/1/2/441258.jpg?0304"
+              alt="Darkthrone - Soulside Journey album from 1991"
+            />
+            <figcaption>1991 - Soulside Journey</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/6/1/2/612.jpg?0241"
+              alt="Darkthrone - A Blaze In The Northern Sky album from 1992"
+            />
+            <figcaption>1992 - A Blaze In The Northern Sky</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/6/2/8/628.jpg?0006"
+              alt="Darkthrone - Under A Funeral Moon album from 1993"
+            />
+            <figcaption>1993 - Under A Funeral Moon</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/6/2/4/624.jpg?0201"
+              alt="Darkthrone - Transilvanian Hunger album from 1994"
+            />
+            <figcaption>1994 - Transilvanian Hunger</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/6/5/3/653.jpg?0110"
+              alt="Darkthrone - Panzerfaust album from 1995"
+            />
+            <figcaption>1995 - Panzerfaust</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/2/6/0/2/2602.jpg?3017"
+              alt="Darkthrone - Total Death album from 1996"
+            />
+            <figcaption>1996 - Total Death</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/1/9/2/6/1926.jpg?2637"
+              alt="Darkthrone - Goatlord album from 1996"
+            />
+            <figcaption>1996 - Goatlord</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/6/5/5/655.jpg?4840"
+              alt="Darkthrone - Ravishing Grimness album from 1999"
+            />
+            <figcaption>1999 - Ravishing Grimness</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/1/7/2/0/1720.jpg?3645"
+              alt="Darkthrone - Plagewielder album from 2001"
+            />
+            <figcaption>2001 - Plaguewielder</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/1/8/0/8/18089.jpg?4927"
+              alt="Darkthrone - Hate Them album from 2003"
+            />
+            <figcaption>2003 - Hate Them</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/5/2/2/8/52283.jpg?0000"
+              alt="Darkthrone - Sardonic Wrath album from 2004"
+            />
+            <figcaption>2004 - Sardonic Wrath</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/1/0/2/3/102351.jpg?5942"
+              alt="Darkthrone - The Cult Is Alive album from 2006"
+            />
+            <figcaption>2006 - The Cult Is Alive</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/1/5/8/3/158395.jpg?5856"
+              alt="Darkthrone - F.O.A.D. album from 2007"
+            />
+            <figcaption>2007 - F.O.A.D.</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/2/1/1/1/211134.jpg?5824"
+              alt="Darkthrone - Dark Thrones And Black Flags album from 2008"
+            />
+            <figcaption>2008 - Dark Thrones And Black Flags</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/4/3/5/9/435930.jpg?5746"
+              alt="Darkthrone - Circle The Wagons album from 2010"
+            />
+            <figcaption>2010 - Circle The Wagons</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/3/6/1/2/361238.jpg?5707"
+              alt="Darkthrone - The Underground Resistence album from 2013"
+            />
+            <figcaption>2013 - The Underground Resistence</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/5/9/7/1/597158.jpg?5628"
+              alt="Darkthrone - Arctic Thunder album from 2016"
+            />
+            <figcaption>2016 - Arctic Thunder</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/7/6/7/8/767875.jpg?5555"
+              alt="Darkthrone - Old Star album from 2019"
+            />
+            <figcaption>2019 - Old Star</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/9/4/3/5/943512.jpg?5610"
+              alt="Darkthrone - Eternal Hails album from 2021"
+            />
+            <figcaption>2021 - Eternal Hails</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/1/0/7/1/1071945.jpg?3815"
+              alt="Darkthrone - Astral Fortress album from 2022"
+            />
+            <figcaption>2022 - Astral Fortress</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+        </div>
+
+        <h4>EPs</h4>
+        <div class="releases-containers">
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/9/5/5/3/95531.jpg?3056"
+              alt="Darkthrone - Under Beskyttelse Av Mørke EP from 2005"
+            />
+            <figcaption>2005 - Under Beskyttelse Av Mørke</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/1/5/8/3/158393.jpg?4736"
+              alt="Darkthrone - New Wave Of Black Heavy Metal EP from 2007"
+            />
+            <figcaption>2007 - New Wave Of Black Heavy Metal</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+        </div>
+
+        <h4>Singles</h4>
+        <div class="releases-containers">
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/1/0/2/3/102315.jpg?4220"
+              alt="Darkthrone - Too Old Too Cold single from 2006"
+            />
+            <figcaption>2006 - Too Old Too Cold</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/1/3/3/1/133107.jpg?2829"
+              alt="Darkthrone -  Forebyggende Krig single from 2006"
+            />
+            <figcaption>2006 - Forebyggende Krig</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/6/4/4/6/644607.jpg?5902"
+              alt="Darkthrone - Burial Bliss/Visual Aggression single from 2017"
+            />
+            <figcaption>2017 - Burial Bliss/Visual Aggression</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/7/8/0/0/780099.jpg?4511"
+              alt="Darkthrone - The Hardship Of The Scots single from 2019 - digital"
+            />
+            <figcaption>2019 - The Hardship Of The Scots</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/8/6/6/2/866231.jpg?3651"
+              alt="Darkthrone - Duke of Gloat single from 2019 - digital"
+            />
+            <figcaption>2019 - Duke of Gloat</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/9/5/3/0/953026.png?5513"
+              alt="Darkthrone - Hate Cloak single from 2021 - digital"
+            />
+            <figcaption>2021 - Hate Cloak</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/1/0/8/2/1082921.jpg?1431"
+              alt="Darkthrone - Caravan Of Broken Ghosts single from 2022 - digital"
+            />
+            <figcaption>2022 - Caravan Of Broken Ghosts</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+        </div>
+
+        <h4>Compilations</h4>
+        <div class="releases-containers">
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/1/1/7/0/11702.jpg?5430"
+              alt="Darkthrone - Preparing For War compilation from 2000"
+            />
+            <figcaption>2000 - Preparing For War</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/1/9/5/4/195431.jpg?1540"
+              alt="Darkthrone - Frostlands Tapes compilation from 2008"
+            />
+            <figcaption>2008 - Frostland Tapes</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/4/1/7/3/417309.jpg?4948"
+              alt="Darkthrone - Sempiternal Past compilation from 2011"
+            />
+            <figcaption>2011 - Sempiternal Past</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/3/7/5/0/375071.jpg?0858"
+              alt="Darkthrone - Introducing Darkthrone compilation from 2012"
+            />
+            <figcaption>2012 - Introducing Darkthrone</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/1/0/1/1/1011473.jpg?1055"
+              alt="Darkthrone - Peaceville Presents... Darkthrone compilation from 2013"
+            />
+            <figcaption>2013 - Peaceville Presents... Darkthrone</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/4/0/5/7/405796.jpg?4444"
+              alt="Darkthrone - Black Death And Beyond compilation from 2014"
+            />
+            <figcaption>2014 - Black Death And Beyond</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/6/1/0/0/610074.jpg?5222"
+              alt="Darkthrone - The Wind Of 666 Black Hearts compilation from 2016"
+            />
+            <figcaption>2016 - The Wind Of 666 Black Hearts</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/1/1/2/9/1129335.jpg?3308"
+              alt="Darkthrone - Thulcandra compilation from 2023"
+            />
+            <figcaption>2023 - Thulcandra</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+        </div>
+
+        <h4>Splits</h4>
+        <div class="releases-containers">
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/7/4/9/7/749731.jpg?2345"
+              alt="Darkthrone - Crusade From The North split album with various artists from 1996"
+            />
+            <figcaption>1996 - Crusade From The North</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/9/5/5/5/955578.jpg?2453"
+              alt="Darkthrone - New Dark Classics Vol.II split album with various artists from 2007"
+            />
+            <figcaption>2007 - New Dark Classics Vol.II</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+        </div>
+
+        <h4>Boxed-sets</h4>
+        <div class="releases-containers">
+          <figure class="album-container">
+            <img
+              class="album"
+              src="https://www.metal-archives.com/images/9/1/9/5/919507.jpg?2316"
+              alt="Darkthrone - Shadows Of Iconoclasm box from 2021"
+            />
+            <figcaption>2021 - Shadows Of Iconoclasm</figcaption>
+            <div class="button-container">
+              <button class="buy-button">
+                <a href="" target="_blank">Buy now</a>
+              </button>
+            </div>
+          </figure>
+        </div>
+      </section>
+
+      <section id="members" class="members">
+        <h3>Members</h3>
+        <!-- this will use float to make the text float around the image -->
+        <div class="fenriz-block">
+          <figure class="dt-fenriz">
+            <img
+              src="images/darkthrone-fenriz.jpg"
+              alt="Fenriz of Darkthrone"
+            />
+            <figcaption>Fenriz</figcaption>
+          </figure>
+          <p class="fenriz-bio">
+            <strong>Gylve Fenris Nagell</strong> (born Leif Nagell; 28 November
+            1971), known professionally as Fenriz, is a Norwegian musician,
+            part-time music journalist and online radio host (with the show
+            "Radio Fenriz") who is best known as being one half of the Black
+            Metal duo Darkthrone, alongside Nocturno Culto. Although primarily a
+            drummer and songwriter, he has also played bass, guitar and done
+            vocals for Darkthrone and several other metal bands. Fenriz is famed
+            for his encyclopedic knowledge of metal music, his eager promotion
+            of underground bands and the DIY ethic, and his rejection of the
+            "showbiz side of the music industry". Fenriz was also the studio
+            drummer for doom metal band Valhall, and has had several solo
+            projects, including the Folk Black Metal project Isengard and the
+            Dark Ambient project Neptune Towers.
+          </p>
+        </div>
+        <div class="nocturno-block">
+          <figure class="dt-nocturno">
+            <img
+              src="images/darkthrone-nocturno-culto.jpg"
+              alt="Nocturno Culto of Darkthrone"
+            />
+            <figcaption>Nocturno Culto</figcaption>
+          </figure>
+          <p class="noctuno-bio">
+            <strong>Ted Skjellum</strong> (born 4 March 1972), also known by the
+            stage name Nocturno Culto, is a Norwegian musician best known as the
+            vocalist, lead guitarist, and partial bassist (shared with Fenriz)
+            of the influential Black Metal band Darkthrone. He has been with the
+            band since 1988. He is also the vocalist of the band Sarke, and has
+            a solo project called Gift of Gods. He currently works in Norway as
+            a school teacher, and has a son and a daughter. He has also released
+            a documentary film called <em>The Misanthrope</em> in which he deals
+            with black metal music and life in Norway.
+          </p>
+        </div>
+      </section>
+
+      <section id="videos" class="video">
+        <h3>Videos</h3>
+        <!-- a link to their youtube video clip or new release from peaceville -->
+        <div class="video-container">
+          <iframe
+            id="video"
+            src="https://www.youtube.com/embed/wUw7mo6CeVw"
+            frameborder="0"
+            width="420"
+            height="315"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            src="https://www.youtube.com/embed/m4YZVDJMdEY"
+            frameborder="0"
+            width="420"
+            height="315"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="copyright">Copyright &copy; 2023 | fgdamasceno</p>
+      <p class="social-icons">
+        <a href="https://github.com/fgdamasceno" target="_blank"
+          ><i class="lni lni-github-original"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/fgdamasceno/" target="_blank"
+          ><i class="lni lni-linkedin-original"></i
+        ></a>
+      </p>
+      <!-- adicionar link para linkedin e github -->
+    </footer>
+  </body>
+</html>
