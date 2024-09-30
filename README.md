@@ -28,4 +28,4 @@
 
 18. Learn CSS Animation by Building a Ferris Wheel ✅
 19. Learn CSS Transforms by Building a Penguin ✅
-20. Personal Portfolio Webpage (Certification Project)
+20. Personal Portfolio Webpage (Certification Project) ✅

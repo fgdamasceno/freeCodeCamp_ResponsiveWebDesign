@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+}
+
+header {
+    background-color: #B03A2E;
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    border: 3px solid rgba(36, 45, 54, 0.7);
+}
+
+a {
+    text-decoration: none;
+    color: #F0F3F4;
+    cursor: pointer;
+}
+
+i {
+    color: #F0F3F4;
+}
+
+.nav-bar {
+    width: 500px;
+    height: inherit;
+    font-size: 1.8rem;
+    position: absolute;
+    top: 0;
+    right: 20px;
+}   
+
+.nav-bar ul {
+    height: inherit;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-bar li {
+    list-style: none;
+}
+
+.welcome-section {
+    height: 100vh;
+    background-color: #212f3d;
+    color: #F0F3F4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-section h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    font-family: Raleway;
+}
+
+.welcome-section p {
+    font-size: 2.5rem;
+    font-weight: 300;
+    font-style: italic;
+    color: #B03A2E
+}
+
+.projects {
+    background-color: #1A5276;
+    padding: 50px 0 100px;
+}
+
+h2 {
+    color: #F0F3F4;
+    font-size: 3rem;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto 50px;
+    padding: 20px 0 10px;
+    border-bottom: 3px solid #F0F3F4;
+    font-family: Raleway;
+}
+
+img {
+    height: 500px;
+    padding-bottom: 20px;
+    border-radius: 5px 5px 0 0;
+}
+
+article {
+    display: inline;
+    background-color: #212F3D;
+    border-radius: 10px;
+}
+
+span,
+span i  {
+    font-size: 1.5rem;
+    color: transparent;
+}
+
+article:hover span,
+article:hover i {
+    color: #B03A2E;
+    transition: .85s;
+}
+
+article p {
+    color: #F0F3F4;
+    text-align: center;
+    font-size: 1.8rem;
+    padding-bottom: 20px;
+}
+
+.project-tile {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px auto 80px;
+    gap: 50px;
+}
+
+.contact-links {
+    background-color: #212F3D;
+}
+
+.button {
+    width: 230px;
+    padding: 10px;
+    margin: auto;
+    font-size: 1.3rem;
+    background-color: #212F3D;
+    border-radius: 3px;
+}
+
+.button:hover {
+    background-color: #B03A2E;
+    transition: .8s;
+}
+
+.button p {
+    margin: auto;
+    width: max-content;
+    font-size: 1.8rem;
+}
+
+.button:hover i {
+    transform: translateX(4px);
+    transition: .8s;
+}
+
+.contact-links {
+    color: #F0F3F4;
+    padding: 200px 0;
+}
+
+.contact-links h2 {
+    border: none;
+    margin: 0;
+    font-size: 4rem;
+    font-family: Raleway;
+}
+
+.contact-links p {
+    font-size: 1.5rem;
+    font-style: italic
+}
+
+.contact-text {
+    height: ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links {
+    margin-top: 100px;
+    padding: 20px;
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+    gap: 80px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.links i {
+    margin-right: 15px;
+}
+
+.footer {
+    border-top: 4px solid #B03A2E;
+    background-color: #212f3d;
+    height: 100px;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #F0F3F4;
+    padding: 30px;
+    letter-spacing: 2px;
+}
+
+.links a:hover {
+    transform: translateY(7px);
+    transition: transform .3s ease-out;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 639.5px) {
+    .nav-bar {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+    .nav-bar ul {
+        display: block;
+        width: inherit;
+        display: flex;
+        justify-content: space-around
+    }
+    .project-tile {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .project-card {
+        width: 100%;
+    }
+    .project-card img {
+        width: 100%;
+        height: 100%;
+    }
+    .links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .links a {
+        text-align: center;
+    }
+}
