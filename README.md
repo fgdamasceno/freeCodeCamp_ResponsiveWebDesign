@@ -1,6 +1,6 @@
 # freeCodeCamp.org
 
-## Responsive Web Design Projects
+## Responsive Web Design Certification
 
 1.  Learn HTML by Building a Cat Photo App ✅
 2.  Learn Basic CSS by Building a Cafe Menu ✅
