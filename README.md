@@ -36,3 +36,7 @@
 20. Personal Portfolio Webpage (Certification Project) ✅
 
 ---
+
+### Certification
+
+[![freeCodeCamp](<21. Certification/responsiveWebDesign.png>)](https://www.freecodecamp.org/certification/fgdamasceno/responsive-web-design)
