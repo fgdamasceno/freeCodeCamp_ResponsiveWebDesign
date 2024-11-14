@@ -1,4 +1,4 @@
-# freeCodeCamp.org
+# freeCodeCamp
 
 ## Responsive Web Design Certification
 
